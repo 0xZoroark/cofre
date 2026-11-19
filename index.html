@@ -32,10 +32,18 @@
     </section>
     <script src="forca.js"></script>
     <!-- FERRAMENTAS: cole cada trecho novo logo ACIMA desta linha -->
+  <section class="cartao">
+    <h2>Verificador de link suspeito</h2>
+    <p>Analisa sinais comuns de phishing direto no navegador antes de você clicar.</p>
+    <input type="text" id="campo-url" placeholder="Cole uma URL para analisar (ex: https://github.com)" />
+    <button onclick="testarUrl()">Testar link</button>
+    <p id="resultado-url"></p>
+  </section>
   </main>
 
   <footer>
     <p>Cofre · projeto da disciplina Introdução à Ciência da Computação, Prof. Mario Rebello, 2026/2</p>
   </footer>
+  <script src="minha-url.js"></script>
 </body>
 </html>
