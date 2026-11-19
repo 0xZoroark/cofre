@@ -1,5 +1,12 @@
-# Cofre
+# Cofre — Kit de Segurança Digital
 
-Kit de segurança digital que roda no navegador.
+Ferramentas de segurança digital que rodam 100% no navegador, sem enviar dados sensíveis para servidores externos.
 
-Ferramentas locais de seguranca.
+![Capa do projeto Cofre](capa.png)
+
+## Ferramentas disponíveis
+1. **Verificador de vazamentos:** consulta o prefixo SHA-1 (k-anonimato) para saber se uma senha já apareceu em vazamentos.
+2. **Calculadora de bits:** calcula a entropia da senha com base no tamanho do alfabeto utilizado.
+
+## Autor
+Desenvolvido por **Lucas Cortez** na disciplina de Introdução à Ciência da Computação (2026/2).
